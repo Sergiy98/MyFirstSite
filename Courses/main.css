@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    padding: 0 5px 0 5px;
+}
+
+.nav {
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.events_row {
+    background-color: #f5f5dc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.events-colum {
+    padding: 15px;
+}
+
+.first_colum {
+
+}
+
+.other {
+    background-color: #fffaf0;
+    border: 1px solid #faebd7;
+    flex: 0 0 200px;
+}
+
+.middle {
+    margin-left: auto;
+}
+
+.first_jobs_row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.second_jobs_row {
+
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.first_job_colum {
+    flex: 0 0 200px;
+    background-color: brown;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+.second_job_colum {
+    display: inherit;
+    background-color: chocolate;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+.apply_button {
+    background-color: brown;
+    text-decoration: white;
+    align-self: flex-end;
+    padding: 15px;
+    border-radius: 5px;
+    border: solid 1px darkred;
+}

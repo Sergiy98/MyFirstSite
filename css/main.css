@@ -157,3 +157,50 @@ h1 {
 .works img:last-child {
     float: right;
 }
+
+.about_us img {
+    display: block;
+    margin: 0 auto;
+}
+
+.main_float {
+    position: absolute;
+    float: left;
+}
+
+.float_left {
+    float: right;
+}
+
+.float_left h4 {
+    width: 350px;
+    text-align: right;
+    float: right;
+}
+
+.float_left p {
+    text-align: right;
+    width: 350px;
+}
+
+
+
+.main_float_r {
+    position: absolute;
+    float: right;
+}
+
+.float_right {
+    float: left;
+}
+
+.float_right h4 {
+    width: 350px;
+    text-align: left;
+    float: left;
+}
+
+.float_right p {
+    text-align: left;
+    width: 350px;
+}
